@@ -1,9 +1,7 @@
 <?php 
 	// vamos receber uma variável via Get e exibir na tela 
-	$texto = $_GET['nome'];
-	//$registro = $_GET['rg']
+	$texto = $_GET['nome']
  ?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
@@ -17,6 +15,5 @@
 	</head>
 	<body >
 		Olá <?=$texto?>, seja bem vindo!
-		<!-- Sua indentificação: <?=$registro?> -->
 	</body>
 </html>
